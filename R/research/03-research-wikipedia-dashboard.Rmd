@@ -1,0 +1,598 @@
+---
+title: "Research Wikipedia Radar"
+author: "Kevin Lu"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  flexdashboard::flex_dashboard: 
+    theme: cerulean 
+    orientation: columns 
+    vertical_layout: scroll 
+---
+
+```{r, include = FALSE}
+source("./R/rsearch/02-research-wikipedia.R")
+```
+
+Price vs Views Level {data-icon="fa-line-chart"}
+=========================================
+
+Price vs Views Column A {.tabset .tabset-fade}
+-------------------------------------
+
+### Top 20
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["Top 20"]]
+```
+
+
+### en
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["en.wikipedia"]]
+```
+
+### ru
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["ru.wikipedia"]]
+```
+
+### de
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["de.wikipedia"]]
+```
+
+### es
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["es.wikipedia"]]
+```
+
+### zh
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["zh.wikipedia"]]
+```
+
+### ja
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["ja.wikipedia"]]
+```
+
+### fr
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["fr.wikipedia"]]
+```
+
+### it
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["it.wikipedia"]]
+```
+
+### pt
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["pt.wikipedia"]]
+```
+
+### vi
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["vi.wikipedia"]]
+```
+
+### pl
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["pl.wikipedia"]]
+```
+
+### ar
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["ar.wikipedia"]]
+```
+
+### nl
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["nl.wikipedia"]]
+```
+
+### ko
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["ko.wikipedia"]]
+```
+
+### cs
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["cs.wikipedia"]]
+```
+
+### id
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["id.wikipedia"]]
+```
+
+### tr
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["tr.wikipedia"]]
+```
+
+### uk
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["uk.wikipedia"]]
+```
+
+### hu
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["hu.wikipedia"]]
+```
+
+### sv
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_a[["sv.wikipedia"]]
+```
+
+Price vs Views Column B
+-------------------------------------
+
+### 
+
+Last updated on **`r Sys.Date()`**. 
+
+This plot displays the BTCUSD exchange rate along with the number of daily pageviews of the bitcoin Wikipedia page in various 
+languages. Using Wikipedia page views can serve as a measure of interest from new and potential investors of bitcoin because 
+investors are likely to begin their research by reading the Wikipedia page. This indicator can be engineered into a feature for 
+use in momentum-type models and is consistent with the theory that there is persistence in performance due to the long series 
+of steps for a new investor to begin accumulating bitcoin. 
+
+The Top 20 tab represents an aggregation of the page views from the top 20 languages. Each language referred to as a project in 
+the Wikipedia API. The subsequent tabs represent page views from individual projects. 
+
+Data Sources:  
+- Bitcoin exchange rate data obtained from BitStamp via Quandl. 
+- Wikipedia page view data obtained from https://tools.wmflabs.org/pageviews/. 
+
+Price vs Views Change {data-icon="fa-line-chart"}
+=========================================
+
+Price vs Views Change Column A {.tabset .tabset-fade}
+-------------------------------------
+
+### Top 20
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["Top 20"]]
+```
+
+
+### en
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["en.wikipedia"]]
+```
+
+### ru
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["ru.wikipedia"]]
+```
+
+### de
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["de.wikipedia"]]
+```
+
+### es
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["es.wikipedia"]]
+```
+
+### zh
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["zh.wikipedia"]]
+```
+
+### ja
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["ja.wikipedia"]]
+```
+
+### fr
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["fr.wikipedia"]]
+```
+
+### it
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["it.wikipedia"]]
+```
+
+### pt
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["pt.wikipedia"]]
+```
+
+### vi
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["vi.wikipedia"]]
+```
+
+### pl
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["pl.wikipedia"]]
+```
+
+### ar
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["ar.wikipedia"]]
+```
+
+### nl
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["nl.wikipedia"]]
+```
+
+### ko
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["ko.wikipedia"]]
+```
+
+### cs
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["cs.wikipedia"]]
+```
+
+### id
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["id.wikipedia"]]
+```
+
+### tr
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["tr.wikipedia"]]
+```
+
+### uk
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["uk.wikipedia"]]
+```
+
+### hu
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["hu.wikipedia"]]
+```
+
+### sv
+
+```{r, fig.width = 12, fig.height = 8}
+plot_list_b[["sv.wikipedia"]]
+```
+
+Price vs Views Change Column B
+-------------------------------------
+
+### 
+
+This plot displays the BTCUSD exchange rate along with the 7-day percent change in page views. A 7-day percent change 
+was used to determine when there is a large influx of new readers by removing the trend and correcting for the weekly 
+seasonality in the series. Other approaches using moving averages or rolling z-scores did not produce good results. 
+Using a 7-day percent change accurately identifies the peaks in page views and is consistent with visual identification 
+of peaks. 
+
+Price vs Views Signal {data-icon="fa-line-chart"}
+=========================================
+
+Price vs Views Signal Column A {.tabset .tabset-fade}
+-------------------------------------
+
+### Top 20
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["Top 20"]]
+```
+
+
+### en
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["en.wikipedia"]]
+```
+
+### ru
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["ru.wikipedia"]]
+```
+
+### de
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["de.wikipedia"]]
+```
+
+### es
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["es.wikipedia"]]
+```
+
+### zh
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["zh.wikipedia"]]
+```
+
+### ja
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["ja.wikipedia"]]
+```
+
+### fr
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["fr.wikipedia"]]
+```
+
+### it
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["it.wikipedia"]]
+```
+
+### pt
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["pt.wikipedia"]]
+```
+
+### vi
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["vi.wikipedia"]]
+```
+
+### pl
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["pl.wikipedia"]]
+```
+
+### ar
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["ar.wikipedia"]]
+```
+
+### nl
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["nl.wikipedia"]]
+```
+
+### ko
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["ko.wikipedia"]]
+```
+
+### cs
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["cs.wikipedia"]]
+```
+
+### id
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["id.wikipedia"]]
+```
+
+### tr
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["tr.wikipedia"]]
+```
+
+### uk
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["uk.wikipedia"]]
+```
+
+### hu
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["hu.wikipedia"]]
+```
+
+### sv
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_c[["sv.wikipedia"]]
+```
+
+Price vs Views Signal Column B
+-------------------------------------
+
+### 
+
+This plot displays the BTCUSD exchange rate with 7-day percent change overlayed as a color and size gradient. 
+Large bright red dots indicate days where there is a very large increase in page views. Medium gray dots indicate 
+days where there is a moderate increase in page views. Small blue dots indicate days where the the page views are 
+stable. 
+
+Price vs Views Threshold {data-icon="fa-line-chart"}
+=========================================
+
+Price vs Views Threshold Column A {.tabset .tabset-fade}
+-------------------------------------
+
+### Top 20
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["Top 20"]]
+```
+
+
+### en
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["en.wikipedia"]]
+```
+
+### ru
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["ru.wikipedia"]]
+```
+
+### de
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["de.wikipedia"]]
+```
+
+### es
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["es.wikipedia"]]
+```
+
+### zh
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["zh.wikipedia"]]
+```
+
+### ja
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["ja.wikipedia"]]
+```
+
+### fr
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["fr.wikipedia"]]
+```
+
+### it
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["it.wikipedia"]]
+```
+
+### pt
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["pt.wikipedia"]]
+```
+
+### vi
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["vi.wikipedia"]]
+```
+
+### pl
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["pl.wikipedia"]]
+```
+
+### ar
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["ar.wikipedia"]]
+```
+
+### nl
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["nl.wikipedia"]]
+```
+
+### ko
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["ko.wikipedia"]]
+```
+
+### cs
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["cs.wikipedia"]]
+```
+
+### id
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["id.wikipedia"]]
+```
+
+### tr
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["tr.wikipedia"]]
+```
+
+### uk
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["uk.wikipedia"]]
+```
+
+### hu
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["hu.wikipedia"]]
+```
+
+### sv
+
+```{r, fig.width = 12, fig.height = 6}
+plot_list_d[["sv.wikipedia"]]
+```
+
+Price vs Views Threshold Column B
+-------------------------------------
+
+### 
+
+This plot displays the BTCUSD exchange rate with an illustrative long signal derived from the 7-day 
+percent change in page views. Red dots indicate days where the 7-day percent change is greater than 
+the 98.5th percentile. Green dots indicate days where the 7-day percent change is greater than the 
+99th percentile. The plots suggest that green and red dots precede most of the periods where the price 
+increased rapidly.  

@@ -1,0 +1,790 @@
+---
+title: "Research Prices Radar"
+author: "Kevin Lu"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  flexdashboard::flex_dashboard: 
+    theme: cerulean 
+    orientation: columns 
+    vertical_layout: scroll 
+---
+
+
+```{r, include = FALSE}
+source("./R/research/04-research-prices.R")
+```
+
+Last 3 Months {data-icon="fa-line-chart"}
+=========================================
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[1]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[2]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[3]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[4]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[5]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[6]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[7]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[8]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[9]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[10]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[11]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[12]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[13]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[14]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[15]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[16]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[17]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[18]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[19]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[20]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[21]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[22]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[23]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[24]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_a[[25]]
+```
+
+Last 6 Months {data-icon="fa-line-chart"}
+=========================================
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[1]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[2]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[3]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[4]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[5]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[6]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[7]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[8]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[9]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[10]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[11]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[12]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[13]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[14]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[15]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[16]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[17]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[18]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[19]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[20]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[21]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[22]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[23]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[24]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_b[[25]]
+```
+
+Last 1 Year {data-icon="fa-line-chart"}
+=========================================
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[1]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[2]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[3]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[4]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[5]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[6]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[7]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[8]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[9]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[10]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[11]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[12]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[13]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[14]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[15]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[16]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[17]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[18]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[19]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[20]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[21]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[22]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[23]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[24]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_c[[25]]
+```
+
+Last 2 Years {data-icon="fa-line-chart"}
+=========================================
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[1]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[2]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[3]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[4]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[5]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[6]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[7]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[8]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[9]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[10]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[11]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[12]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[13]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[14]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[15]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[16]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[17]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[18]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[19]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[20]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[21]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[22]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[23]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[24]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_d[[25]]
+```
+
+Last 4 Years {data-icon="fa-line-chart"}
+=========================================
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[1]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[2]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[3]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[4]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[5]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[6]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[7]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[8]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[9]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[10]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[11]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[12]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[13]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[14]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[15]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[16]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[17]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[18]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[19]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[20]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[21]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[22]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[23]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[24]]
+```
+
+### 
+
+```{r, fig.width = 16, fig.height = 6}
+plot_list_e[[25]]
+```
+
+Data {data-icon="fa-line-chart"}
+=========================================
+
+###
+
+```{r}
+datatable(coinmarketcap_table, options = list(pageLength = 100))
+```
+
